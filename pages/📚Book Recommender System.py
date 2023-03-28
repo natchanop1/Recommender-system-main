@@ -57,7 +57,7 @@ def filterByAuthor(author):
 
 
 
-book_list = books['Book_Author'].values
+book_list = books_list['Book_Author'].values
 
 tab1, tab2 = st.tabs(["Recommender System", "Filter by Author"])
 
